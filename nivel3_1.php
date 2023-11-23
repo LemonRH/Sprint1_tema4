@@ -28,10 +28,6 @@ class pelicula{
     public function getDirector(){
         return $this->director;
     }
-    //tostring para printar return sin problemas
-    public function __toString() {
-        return $this->nombre . ' - ' . $this->duracion . ' min - Dir. ' . $this->director;
-    }
 }
 
 class cine{
